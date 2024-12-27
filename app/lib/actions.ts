@@ -29,7 +29,6 @@ export type State = {
     };
     message?: string | null;
 };
-
 export async function createInvoice(prevState: State, formData: FormData) {
 
         const validatedFields = CreateInvoice.safeParse({
